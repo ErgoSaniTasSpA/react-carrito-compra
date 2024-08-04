@@ -34,6 +34,7 @@ export const ProductCard = ( {children,product,className,style,onChange,value }:
     <Provider value = {{ counter,increaseBy,product }} >
       {/* Aqui va Body del page */}
       <div className={`${ styles.productCard } ${ className }`} style= { style } >
+        {/*  Renderiza un objeto ReactElement (componets) NO retorna parametros (void) */}
         { children } 
       </div>
     

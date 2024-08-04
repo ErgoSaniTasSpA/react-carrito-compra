@@ -29,7 +29,8 @@ export const shoppingPage = () => {
             onChange= { (event) => onProductCountChange(event) }
             value = { shoppingCart[product.id]?.count || 0 }
           >
-            
+          {/* Espera un objeto ReactElement (componets) */}
+
             {/* Clases Hijas  */}
             <ProductImage 
               style = {{ boxShadow: '10px 10px 10px rgba(0,0,0,2)' }} 
